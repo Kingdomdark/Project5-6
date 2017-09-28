@@ -1,0 +1,81 @@
+#body{
+    background-color: black;
+}
+#container{
+    background-color: #333;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#header{
+    height: 125px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#icon:visited, icon:link{
+    color: #ffc119;
+}
+#icon:hover{
+    color: #F1E5C4;    
+}
+#icon{
+    text-decoration: none;
+}
+#title{
+    font-size: 20px;
+    float: left;
+    background-color: #333;
+    font-family: "Papyrus";
+}
+#authenticator{
+    padding-bottom: 25px;
+}
+.authenticatorli{
+    padding-left: 20px;
+    float: left;    
+    list-style-type: none;
+    color: #94a194;
+    font-family: "Gabriola";    
+    font-size: 18px;
+}
+.navbarli{
+    padding-left: 20px;
+    float: left;
+    list-style-type: none;
+    color: #ffc119;
+    font-size: 20px;
+    font-family: "Gabriola";
+}
+.navbarelements:visited, navbarelements:link{
+    color: #ffc119;
+}
+.navbarelements:hover{
+    color: #F1E5C4;
+}
+.navbarelements{
+    text-decoration: none;
+}
+#searchbar{
+    float: left;
+    margin-left: 50px;
+}
+#searchbar input{
+    height: 20px;
+}
+#content{
+    float: left;
+}
+#main{
+    color: #717070;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+#maintext{
+    font-family: "Arial";
+}
+#footer{
+    padding-top: 50px;
+    height: 50px;
+    text-align: center;
+    clear: both;
+    color: #fff
+}
