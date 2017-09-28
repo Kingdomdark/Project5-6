@@ -65,9 +65,9 @@
     float: left;
 }
 #main{
-    margin-top: 200px;
-    margin-right: 20px;
-    color: red;
+    vertical-align: top;
+    text-align: left;
+    color: #fff;
 }
 #footer{
     text-align: center;
