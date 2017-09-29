@@ -1,5 +1,7 @@
 #body{
     background-color: black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg);
+    background-size: cover;
 }
 #container{
     background-color: #333;
@@ -16,7 +18,8 @@
     text-decoration: none;
 }
 #header{
-    float: top;
+    height: 125px;
+    background-color: #333;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -63,11 +66,12 @@
 }
 #content{
     float: left;
+    color:#ffffff;
 }
 #main{
-    margin-top: 200px;
-    margin-right: 20px;
-    color: red;
+    margin-right: 5rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #footer{
     text-align: center;
