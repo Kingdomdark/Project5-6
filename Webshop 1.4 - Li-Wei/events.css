@@ -8,7 +8,6 @@
 }
 #header{
     height: 125px;
-    background-color: #333;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -32,7 +31,7 @@
 }
 .authenticatorli{
     padding-left: 20px;
-    float: left;    
+    float: left;
     list-style-type: none;
     color: #94a194;
     font-family: "Gabriola";    
@@ -47,10 +46,10 @@
     font-family: "Gabriola";
 }
 .navbarelements:visited, navbarelements:link{
-    color: #ffc119;
+    color: #ffc119;    
 }
 .navbarelements:hover{
-    color: #F1E5C4;
+    color: #F1E5C4;        
 }
 .navbarelements{
     text-decoration: none;
@@ -64,14 +63,28 @@
 }
 #content{
     float: left;
+    margin-left: 100px;    
+    color: #fff;
 }
-#main{
-    color: #717070;
-    margin-left: 100px;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-#maintext{
-    font-family: "Arial";
+th{
+    padding-right: 125px;
+    color: #ffc119
 }
+#filterleft{
+    float: left;
+}
+#items{
+    float: right;
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+
+
 #footer{
     padding-top: 50px;
     height: 50px;

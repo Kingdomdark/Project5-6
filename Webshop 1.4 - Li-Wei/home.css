@@ -31,7 +31,7 @@
 }
 .authenticatorli{
     padding-left: 20px;
-    float: left;
+    float: left;    
     list-style-type: none;
     color: #94a194;
     font-family: "Gabriola";    
@@ -46,10 +46,10 @@
     font-family: "Gabriola";
 }
 .navbarelements:visited, navbarelements:link{
-    color: #ffc119;    
+    color: #ffc119;
 }
 .navbarelements:hover{
-    color: #F1E5C4;        
+    color: #F1E5C4;
 }
 .navbarelements{
     text-decoration: none;
@@ -65,13 +65,13 @@
     float: left;
 }
 #main{
-    margin-left: 100px;    
-    color: #fff;
+    color: #717070;
+    margin-left: 5rem;
+    border: 1px solid black;
 }
-
-
-
-
+#maintext{
+    font-family: "Arial";
+}
 #footer{
     padding-top: 50px;
     height: 50px;
