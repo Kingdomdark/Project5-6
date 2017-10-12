@@ -15,6 +15,11 @@ namespace Ticketshop.Controllers
             return View();
         }
 
+        public IActionResult Events()
+        {
+            ViewData["Message"] = "Events page";
+            return View();
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
