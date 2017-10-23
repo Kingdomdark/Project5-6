@@ -1,0 +1,10 @@
+C:\Users\liwei\Desktop\testdatabase\bin\Debug\netcoreapp2.0\testdatabase.deps.json
+C:\Users\liwei\Desktop\testdatabase\bin\Debug\netcoreapp2.0\testdatabase.runtimeconfig.json
+C:\Users\liwei\Desktop\testdatabase\bin\Debug\netcoreapp2.0\testdatabase.runtimeconfig.dev.json
+C:\Users\liwei\Desktop\testdatabase\bin\Debug\netcoreapp2.0\testdatabase.dll
+C:\Users\liwei\Desktop\testdatabase\bin\Debug\netcoreapp2.0\testdatabase.pdb
+C:\Users\liwei\Desktop\testdatabase\obj\Debug\netcoreapp2.0\testdatabase.csproj.CoreCompileInputs.cache
+C:\Users\liwei\Desktop\testdatabase\obj\Debug\netcoreapp2.0\testdatabase.AssemblyInfoInputs.cache
+C:\Users\liwei\Desktop\testdatabase\obj\Debug\netcoreapp2.0\testdatabase.AssemblyInfo.cs
+C:\Users\liwei\Desktop\testdatabase\obj\Debug\netcoreapp2.0\testdatabase.dll
+C:\Users\liwei\Desktop\testdatabase\obj\Debug\netcoreapp2.0\testdatabase.pdb
