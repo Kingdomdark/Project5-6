@@ -30,16 +30,16 @@ namespace Model
         [MaxLength(24)]
         public string Username { get; set; }
         [Required(ErrorMessage = "Last Name is required.")]
-        [MaxLength(24)]
-        public string Userlastname{ get; set; }
+        [MaxLength(50)]
+        public string UserLastName{ get; set; }
         [Required(ErrorMessage = "Email is required.")]
         [MaxLength(50)]
         [RegularExpression(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", ErrorMessage = "Please enter a valid email.")]
-        public string email_adress{ get; set;}
+        public string Email_Address{ get; set;}
         [Required(ErrorMessage = "Password is required.")]
         [MinLength(6)]
         [DataType(DataType.Password)]
-        public string _password{ get; set;}
+        public string _Password{ get; set;}
         [Compare("Password", ErrorMessage = "Please confirm your password")]
         [DataType(DataType.Password)]
         public string ConfirmPassword{ get; set; }
@@ -48,15 +48,15 @@ namespace Model
     public class Theater {
         [Key]
         public int TheaterID { get; set; }
-        public string Theatername { get; set; }
-        public string Theateradress { get; set; }
-        public int Available_seats { get; set; }
+        public string TheaterName { get; set; }
+        public string TheaterAddress { get; set; }
+        public int Available_Seats { get; set; }
     }
     public class Ticket {
         [Key]
         public int TicketID { get; set;}
         public float Price { get; set;}
-        public string Eventname { get; set;}
+        public string EventName { get; set;}
         public string Genre { get; set;}
          //[ForeignKey]
         public DateTime DateTime { get; set;}
