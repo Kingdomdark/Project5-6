@@ -1,0 +1,10 @@
+C:\Users\liwei\Desktop\lesson3\bin\Debug\netcoreapp2.0\lesson3.deps.json
+C:\Users\liwei\Desktop\lesson3\bin\Debug\netcoreapp2.0\lesson3.runtimeconfig.json
+C:\Users\liwei\Desktop\lesson3\bin\Debug\netcoreapp2.0\lesson3.runtimeconfig.dev.json
+C:\Users\liwei\Desktop\lesson3\bin\Debug\netcoreapp2.0\lesson3.dll
+C:\Users\liwei\Desktop\lesson3\bin\Debug\netcoreapp2.0\lesson3.pdb
+C:\Users\liwei\Desktop\lesson3\obj\Debug\netcoreapp2.0\lesson3.csproj.CoreCompileInputs.cache
+C:\Users\liwei\Desktop\lesson3\obj\Debug\netcoreapp2.0\lesson3.AssemblyInfoInputs.cache
+C:\Users\liwei\Desktop\lesson3\obj\Debug\netcoreapp2.0\lesson3.AssemblyInfo.cs
+C:\Users\liwei\Desktop\lesson3\obj\Debug\netcoreapp2.0\lesson3.dll
+C:\Users\liwei\Desktop\lesson3\obj\Debug\netcoreapp2.0\lesson3.pdb
