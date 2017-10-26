@@ -1,0 +1,36 @@
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\app.db
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\Nieuwe map.deps.json
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\Nieuwe map.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\Nieuwe map.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\Nieuwe map.dll
+C:\Users\JasonTjauw\Desktop\Nieuwe map\bin\Debug\netcoreapp2.0\Nieuwe map.pdb
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\Nieuwe map.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\Nieuwe map.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\Nieuwe map.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\Nieuwe map.dll
+C:\Users\JasonTjauw\Desktop\Nieuwe map\obj\Debug\netcoreapp2.0\Nieuwe map.pdb
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\app.db
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.deps.json
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.dll
+C:\Users\JasonTjauw\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.pdb
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.dll
+C:\Users\JasonTjauw\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.pdb
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\app.db
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.deps.json
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.runtimeconfig.json
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.runtimeconfig.dev.json
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.dll
+C:\Users\ricky\Desktop\Webshop\bin\Debug\netcoreapp2.0\Webshop.pdb
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.csproj.CoreCompileInputs.cache
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.AssemblyInfoInputs.cache
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.AssemblyInfo.cs
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.dll
+C:\Users\ricky\Desktop\Webshop\obj\Debug\netcoreapp2.0\Webshop.pdb
