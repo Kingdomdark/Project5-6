@@ -12596,11 +12596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\liwei\\Desktop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\liwei\\Desktop\\Ticketshop\\Ticketshop.csproj",
+      "projectPath": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\Ticketshop.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liwei\\Desktop\\Ticketshop\\obj\\",
+      "outputPath": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
