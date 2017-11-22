@@ -12590,23 +12590,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liwei\\.nuget\\packages\\": {},
+    "C:\\Users\\labin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Ticketshop1.1\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\Ticketshop.csproj",
-      "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\liwei\\Desktop\\Ticketshop1.1\\obj\\",
+      "projectPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Ticketshop1.1\\Ticketshop.csproj",
+      "packagesPath": "C:\\Users\\labin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Ticketshop1.1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\liwei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\labin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

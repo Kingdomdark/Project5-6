@@ -18,3 +18,13 @@ C:\Users\liwei\Desktop\temp\Ticketshop\bin\Debug\netcoreapp2.0\Ticketshop.runtim
 C:\Users\liwei\Desktop\temp\Ticketshop\bin\Debug\netcoreapp2.0\Ticketshop.runtimeconfig.dev.json
 C:\Users\liwei\Desktop\temp\Ticketshop\bin\Debug\netcoreapp2.0\Ticketshop.dll
 C:\Users\liwei\Desktop\temp\Ticketshop\bin\Debug\netcoreapp2.0\Ticketshop.pdb
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\obj\Debug\netcoreapp2.0\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\obj\Debug\netcoreapp2.0\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\obj\Debug\netcoreapp2.0\Ticketshop.AssemblyInfo.cs
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\obj\Debug\netcoreapp2.0\Ticketshop.dll
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\obj\Debug\netcoreapp2.0\Ticketshop.pdb
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\bin\Debug\netcoreapp2.0\Ticketshop.deps.json
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\bin\Debug\netcoreapp2.0\Ticketshop.runtimeconfig.json
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\bin\Debug\netcoreapp2.0\Ticketshop.runtimeconfig.dev.json
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\bin\Debug\netcoreapp2.0\Ticketshop.dll
+C:\Users\labin\Documents\GitHub\Project56\Ticketshop1.1\bin\Debug\netcoreapp2.0\Ticketshop.pdb

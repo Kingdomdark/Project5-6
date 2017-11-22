@@ -1,3 +1,5 @@
+using Ticketshop.Models;
+
 public class Customer {
         //[Key]
         public int CustomerID { get; set; }
