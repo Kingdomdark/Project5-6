@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Ticketshop.Models;
 public class CustomerViewModel {
         //[Key]
 

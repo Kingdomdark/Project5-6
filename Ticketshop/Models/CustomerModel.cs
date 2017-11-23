@@ -1,4 +1,8 @@
-public class Customer {
+using System;
+
+namespace Ticketshop.Models
+{
+    public class Customer {
         //[Key]
         public int CustomerID { get; set; }
         public string Username { get; set; }
@@ -7,4 +11,5 @@ public class Customer {
         public string Email_adress{ get; set;}
         //[MaxLength(24)]
         public string Password{ get; set;}
+    }
 }

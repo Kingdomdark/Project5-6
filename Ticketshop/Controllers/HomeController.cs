@@ -10,17 +10,19 @@ namespace Ticketshop.Controllers
 {
     public class HomeController : Controller
     {
+        // GET: /Home/
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult Events()
+        // GET: /Contact/
+        public IActionResult Contact()
         {
-            ViewData["Message"] = "Events page";
-            
+            ViewData["Message"] = "Your contact page.";
+
             return View();
         }
+        // GET: /About/
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -28,16 +30,39 @@ namespace Ticketshop.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+
+
+
+        
+        // GET: /Events
+        public IActionResult Events()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "This is the events page. It shows a table of the events";
+
+            var ticket = new Ticket() {Eventname = "Eventnametest1"};
+
+            return View(ticket);
+        }
+        // GET: /Error/
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        // GET: /Login/
+        public IActionResult Login()
+        {
+            ViewData["Message"] = "This is the login page, where you can log in ofcourse.";
 
             return View();
         }
 
-        public IActionResult Error()
+        // GET: /Register/
+        public IActionResult Register()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            ViewData["Register"] = "This is the register page, where you can create an account ofcourse.";
+
+            return View();
         }
     }
 }

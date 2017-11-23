@@ -1,8 +1,9 @@
 using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Ticketshop.Models;
 
-namespace Ticketshop.Models
-{
-    public class Ticket {
+public class TicketViewModel {
         //[Key]
         public int TicketID { get; set;}
         public float Price { get; set;}
@@ -11,5 +12,4 @@ namespace Ticketshop.Models
         public DateTime DateTime { get; set;}
         //[ForeignKey]
         public virtual Theater TheaterID { get; set;}
-    }
 }

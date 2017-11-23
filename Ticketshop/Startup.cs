@@ -6,9 +6,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Ticketshop.Models;
-using Microsoft.EntityFrameworkCore;
-
 
 namespace Ticketshop
 {
@@ -24,12 +21,7 @@ namespace Ticketshop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<TicketContext>
-            (
-                opt=> opt.UseNpgsql("User ID=postgres;Password=liweiyeh;Host=localhost;Port=5432;Database=Ticketshop;Pooling=true;")
-            );
             services.AddMvc();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
