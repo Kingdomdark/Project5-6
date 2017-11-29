@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Ticketshop.Models.Ticket>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!-- Main body -->
+<div id="main">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-height: 300px; position:relative;z-index:1;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators" style="z-index:1 !important">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>[
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" style="max-height: 300px;">
+                <a href="/Home/Events/Kimi No Na Wa">
+                    <img src="~/images/Kimi no na wa.jpg" alt="Kimi no na wa" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>title</h3>
+                        <p>
+                            One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.
+                        </p>
+                    </div>
+                </a>
+            </div>
+           
+            <div class="item" style="max-height: 300px;">
+                <a href="/Home/CarouselEventTwo">
+                    <img src="~/images/Jigsaw.jpg" alt="Jigsaw" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Jigsaw</h3>
+                        <p>Bodies are turning up around the city, each having met a uniquely gruesome demise. As the investigation proceeds, evidence points to one suspect: John Kramer, the man known as Jigsaw, who has been dead for ten years.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item" style="max-height: 300px;">
+                <a href="/Home/CarouselEventThree">
+                    <img src="~/images/Justice League.jpg" alt="Justice League" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Justice League</h3>
+                        <p>Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+   
+
+    <br>
+    <br>
+
+    <!-- Container -->
+    <div class="container">
+       
+        <!-- Row -->
+        <div class="row">
+            @foreach (var t in Model)
+            {
+            <!-- Column -->
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="shopping-grid">
+                    <!-- Image -->
+                    <a href="/Home/ProfessorMarstonandtheWonderWomen">
+                        <img class="img-responsive img-thumbnail" src="~/images/Professor Marston and the Wonder Women.jpg">
+                    </a><!-- /.img -->
+                    <!-- Caption content -->
+                    <div class="caption text-center">
+                        <!-- Content Header -->
+                        <h3>@t.Eventname</h3>
+                        <!-- Content paragraph -->
+                        <p>
+                            Professor Marston and the Wonder Women is a 2017 American biographical drama film about American psychologist William Moulton Marston, who created the fictional character Wonder Woman. The film, directed and written by Angela Robinson, stars Luke Evans as Marston, Rebecca Hall as his legal wife Elizabeth and Bella Heathcote as Marston's live-in mistress, Olive Byrne. JJ Feild, Oliver Platt and Connie Britton also star.
+                            The film premiered at the 2017 Toronto International Film Festival and was released in the United States on October 13, 2017. It received positive reviews from critics, who praised Robinson's direction and the performances of its stars.
+                        </p>
+                        <!-- Content Buttons -->
+                        <p>
+                            <a href="http://localhost:53421/Home/Events" class="btn btn-primary" role="button">
+                                Buy Ticket(s)!
+                            </a>
+
+                            <a href="http://localhost:53421/Home/ProfessorMarstonandtheWonderWomen" class="btn btn-default" role="button">
+                                More info?
+                            </a>
+                        </p><!-- /.content buttons -->
+                    </div><!-- /.caption -->
+                </div><!-- /.shopping-grid -->
+            </div><!-- /.col -->
+            <!-- Column -->
+            }
+        </div><!-- /.row -->
+        
+    </div><!-- /.container -->
+</div><!-- /#main -->

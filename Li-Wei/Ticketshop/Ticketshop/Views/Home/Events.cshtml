@@ -1,0 +1,37 @@
+@model Ticketshop.ViewModel.EventViewModel
+    @{
+        ViewData["Title"] = "Events";
+    }
+
+
+    <h2>@ViewData["Title"].</h2>
+    <h3>@ViewData["Message"]</h3>
+    <h2>@ViewData["Data"]</h2>
+    <!--EventsFilter-->
+    <div id="EventsFilter">
+    </div>
+
+    <div id="EventsTable">
+        <table width="100%">
+            <tr>
+                <th>Eventname</th>
+                <th>Genre</th>
+                <th>DateTime</th>
+                <th>Price</th>
+            </tr>
+            @foreach (var t in Model.TicketInfo)
+            {
+                <tr>
+                    <td>@t.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+            }
+
+        </table>
+
+
+    </div>
+
