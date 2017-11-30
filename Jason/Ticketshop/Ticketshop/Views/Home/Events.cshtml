@@ -1,0 +1,39 @@
+@model IEnumerable<Ticketshop.Models.Ticket>
+@{
+    ViewData["Title"] = "Events";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+<h2>@ViewData["Data"]</h2>
+<!--EventsFilter-->
+<div id="EventsFilter"></div>
+    
+<!-- Container -->
+<div id="EventsTable">
+    <!-- Row -->
+    <div class="row">
+    @foreach (var t in Model)
+    {
+        <!-- Column -->
+        <div class="col-xl-4 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="container">
+                
+                <img src="~/images/Kimi no na wa.jpg" width="200" height="300"/>
+                <ul class="Events">
+                    <li>Eventname: @t.Eventname</li>
+                    <li>Genre: @t.Genre</li>
+                    <li>Date: @t.DateTime</li>
+                    <li>Price: @t.Price</li>
+                </ul>
+                <a href="http://localhost:53422/Home/KimiNoNaWa" class="btn btn-primary" role="button">
+                    Buy Ticket(s)!
+                </a>
+                <br>
+                
+            </div>
+            <br>
+        </div>
+    }
+    </div>
+</div>
