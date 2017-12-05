@@ -1,0 +1,48 @@
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Li-Wei\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\Binh Nguyen\Desktop\Projects\Jason\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
