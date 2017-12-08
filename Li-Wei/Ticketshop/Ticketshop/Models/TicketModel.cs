@@ -8,14 +8,13 @@ namespace Ticketshop.Models
 {
     public class Ticket
     {
-        //[Key]
+        [Key]
         public int TicketID { get; set; }
         [Display(Name ="Prijs")]
         public float Price { get; set; }
         public string Eventname { get; set; }
         public string Genre { get; set; }
         public DateTime DateTime { get; set; }
-        //[ForeignKey]
         public Theater TheaterID { get; set; }
     }
 }

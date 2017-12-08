@@ -20,9 +20,29 @@ namespace Ticketshop.Controllers
         }
 
         // GET: Tickets
-        public async Task<IActionResult> Index()
+        public IActionResult Index(string searchString)
         {
-            return View(await _context.Tickets.ToListAsync());
+            //return View(await _context.Tickets.ToListAsync());
+            var tickets = from ticket in _context.Tickets
+                          select ticket;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                tickets = tickets.Where(s => s.Eventname.Contains(searchString));
+            }
+            return View(tickets);
+        }
+        public IActionResult Events(string searchString)
+        {
+            //return View(await _context.Tickets.ToListAsync());
+            var tickets = from ticket in _context.Tickets
+                          select ticket;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                tickets = tickets.Where(s => s.Eventname.Contains(searchString));
+            }
+            return View(tickets);
         }
 
         // GET: Tickets/Details/5

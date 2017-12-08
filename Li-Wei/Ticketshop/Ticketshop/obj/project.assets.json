@@ -10958,11 +10958,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\liwei\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\liwei\\Desktop\\WerkHierIn\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\liwei\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectPath": "C:\\Users\\liwei\\Desktop\\WerkHierIn\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liwei\\OneDrive\\Documenten\\Visual Studio 2017\\Projects\\Ticketshop\\Ticketshop\\obj\\",
+      "outputPath": "C:\\Users\\liwei\\Desktop\\WerkHierIn\\Ticketshop\\Ticketshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\liwei\\AppData\\Roaming\\NuGet\\NuGet.Config",
