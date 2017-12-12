@@ -1,0 +1,12 @@
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
