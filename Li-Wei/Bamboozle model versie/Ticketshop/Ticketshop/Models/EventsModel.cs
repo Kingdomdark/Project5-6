@@ -11,7 +11,7 @@ namespace Ticketshop.Models
         [Key]
         public int EventID { get; set; }
         public float Price { get; set; }
-        [StringLength(45)]
+        [StringLength(50)]
         public string Eventname { get; set; }
         public string Genre { get; set; }
         public DateTime DateAndTime { get; set; }
@@ -20,5 +20,7 @@ namespace Ticketshop.Models
         public string Theatername { get; set; }
         [StringLength(50)]
         public string Theateradress { get; set; }
+        [StringLength(30)]
+        public string EventType { get; set; }
     }
 }
