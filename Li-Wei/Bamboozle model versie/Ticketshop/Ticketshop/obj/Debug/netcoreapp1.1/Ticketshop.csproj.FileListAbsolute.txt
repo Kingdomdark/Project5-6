@@ -10,3 +10,27 @@ C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\ne
 C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
 C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
 C:\Users\liwei\Desktop\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\labin\Documents\GitHub\Project56\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb

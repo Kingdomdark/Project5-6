@@ -10950,7 +10950,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Binh Nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\labin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10958,14 +10958,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Binh Nguyen\\Desktop\\Projects\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Binh\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\Binh Nguyen\\Desktop\\Projects\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
-      "packagesPath": "C:\\Users\\Binh Nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Binh Nguyen\\Desktop\\Projects\\Jason\\Ticketshop\\Ticketshop\\obj\\",
+      "projectPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Binh\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "packagesPath": "C:\\Users\\labin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Binh\\Ticketshop\\Ticketshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Binh Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\labin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -10950,7 +10950,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liwei\\.nuget\\packages\\": {}
+    "C:\\Users\\labin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10958,14 +10958,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\liwei\\Desktop\\Bamboozle model versie\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Li-Wei\\Bamboozle model versie\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\liwei\\Desktop\\Bamboozle model versie\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
-      "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liwei\\Desktop\\Bamboozle model versie\\Ticketshop\\Ticketshop\\obj\\",
+      "projectPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Li-Wei\\Bamboozle model versie\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "packagesPath": "C:\\Users\\labin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labin\\Documents\\GitHub\\Project56\\Li-Wei\\Bamboozle model versie\\Ticketshop\\Ticketshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\liwei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\labin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

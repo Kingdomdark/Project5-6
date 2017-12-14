@@ -156,5 +156,20 @@ namespace Ticketshop.Controllers
         {
             return _context.Events.Any(e => e.EventID == id);
         }
+
+        public IActionResult PersonalEvents()
+        {
+            ViewData["Message"] = "Personal Events";
+
+            return View();
+        }
+
+
+        public IActionResult BusinessEvents()
+        {
+            ViewData["Message"] = "Business Events";
+
+            return View();
+        }
     }
 }
