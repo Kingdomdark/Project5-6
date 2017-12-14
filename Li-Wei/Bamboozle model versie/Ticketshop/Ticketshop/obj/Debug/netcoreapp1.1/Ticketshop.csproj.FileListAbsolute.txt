@@ -34,3 +34,15 @@ C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticket
 C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
 C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
 C:\Users\labin\Desktop\Binh\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Ticketshops\Li-Wei\Bamboozle model versie\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
