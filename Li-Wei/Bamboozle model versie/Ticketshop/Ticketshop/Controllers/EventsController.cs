@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Ticketshop.Data;
 using Ticketshop.Models;
 
+
 namespace Ticketshop.Controllers
 {
     public class EventsController : Controller
@@ -30,6 +31,39 @@ namespace Ticketshop.Controllers
                 tickets = tickets.Where(s => s.Eventname.Contains(searchString));
             }
             return View(tickets);
+        }
+
+        public async Task<IActionResult> BuyTicketConfirmation(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var @event = await _context.Events
+                .SingleOrDefaultAsync(m => m.EventID == id);
+            if (@event == null)
+            {
+                return NotFound();
+            }
+
+            return View(@event);
+        }
+
+        public async Task<IActionResult> BuyTicket(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var @event = await _context.Events
+                .SingleOrDefaultAsync(m => m.EventID == id);
+            if (@event == null)
+            {
+                return NotFound();
+            }
+
+            return View(@event);
         }
 
         // GET: Events/Details/5

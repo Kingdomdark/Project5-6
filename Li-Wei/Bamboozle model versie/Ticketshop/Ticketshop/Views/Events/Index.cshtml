@@ -77,6 +77,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Theateradress)
             </td>
+            <td>
+                <a href="/Events/BuyTicket/@Html.DisplayFor(modelItem => item.EventID)" class="btn btn-primary" role="button">
+                    Buy Ticket(s)!
+                </a>
+            </td>
 
             @* If user == admin, see this.
                 
