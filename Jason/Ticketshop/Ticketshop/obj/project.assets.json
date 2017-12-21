@@ -10958,11 +10958,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\JasonTjauw\\Desktop\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\JasonTjauw\\Desktop\\Ticketshops\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\JasonTjauw\\Desktop\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectPath": "C:\\Users\\JasonTjauw\\Desktop\\Ticketshops\\Jason\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "packagesPath": "C:\\Users\\JasonTjauw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JasonTjauw\\Desktop\\Jason\\Ticketshop\\Ticketshop\\obj\\",
+      "outputPath": "C:\\Users\\JasonTjauw\\Desktop\\Ticketshops\\Jason\\Ticketshop\\Ticketshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JasonTjauw\\AppData\\Roaming\\NuGet\\NuGet.Config",

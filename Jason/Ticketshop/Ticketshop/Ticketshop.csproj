@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
-    <UserSecretsId>aspnet-Ticketshop-53AE52B1-AE9C-49EF-BA13-67746AD632AA</UserSecretsId>
+    <UserSecretsId>aspnet-Ticketshop-8B5D40D6-EFFC-4CB7-8B54-F3FB563AEBAD</UserSecretsId>
   </PropertyGroup>
 
 
