@@ -173,36 +173,31 @@ namespace Ticketshop.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("Ticketshop.Models.Ticket", b =>
+            modelBuilder.Entity("Ticketshop.Models.Event", b =>
                 {
-                    b.Property<int>("TicketID")
+                    b.Property<int>("EventID")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("Available_seats");
+                    b.Property<int>("AvailableTickets");
 
-                    b.Property<string>("CustomerIDId");
+                    b.Property<DateTime>("DateAndTime");
 
-                    b.Property<DateTime>("DateTime");
-
-                    b.Property<string>("Eventname");
+                    b.Property<string>("Eventname")
+                        .HasMaxLength(50);
 
                     b.Property<string>("Genre");
 
-                    b.Property<int>("OrderID");
-
                     b.Property<float>("Price");
 
-                    b.Property<int>("TheaterID");
+                    b.Property<string>("Theateradress")
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Theateradress");
+                    b.Property<string>("Theatername")
+                        .HasMaxLength(35);
 
-                    b.Property<string>("Theatername");
+                    b.HasKey("EventID");
 
-                    b.HasKey("TicketID");
-
-                    b.HasIndex("CustomerIDId");
-
-                    b.ToTable("Tickets");
+                    b.ToTable("Events");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
@@ -240,13 +235,6 @@ namespace Ticketshop.Migrations
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("Ticketshop.Models.Ticket", b =>
-                {
-                    b.HasOne("Ticketshop.Models.ApplicationUser", "CustomerID")
-                        .WithMany()
-                        .HasForeignKey("CustomerIDId");
                 });
         }
     }

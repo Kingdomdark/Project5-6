@@ -22,10 +22,7 @@ namespace Ticketshop.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
-        public DbSet<Theater> Theaters { get; set; }
-        public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<Order> Orders { get; set; }
 
+        public DbSet<Event> Events { get; set; }
     }
-
 }

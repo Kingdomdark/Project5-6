@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Ticketshop.Data;
 using Ticketshop.Models;
 using Ticketshop.Services;
+using Microsoft.AspNetCore.Identity;
 
 namespace Ticketshop
 {
@@ -48,14 +49,57 @@ namespace Ticketshop
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
-
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminRole", policy => policy.RequireRole("Administrator"));
+            });
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
         }
 
+        private async Task CreateRoles(IServiceProvider serviceProvider)
+        {
+            //adding customs roles
+            var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var UserManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            string[] roleNames = { "Admin", "Manager", "Member" };
+            IdentityResult roleResult;
+
+            foreach (var roleName in roleNames)
+            {
+                //creating the roles and seeding them to the database
+                var roleExist = await RoleManager.RoleExistsAsync(roleName);
+                if (!roleExist)
+                {
+                    roleResult = await RoleManager.CreateAsync(new IdentityRole(roleName));
+                }
+            }
+
+            //creating a super user who could maintain the web app
+            var poweruser = new ApplicationUser
+            {
+                UserName = "Admin123@Ticketshop.nl",
+                Email = "Admin123@Ticketshop.nl"
+            };
+
+            string UserPassword = "Admin123!";
+            var _user = await UserManager.FindByEmailAsync(poweruser.Email);
+
+            if (_user == null)
+            {
+                var createPowerUser = await UserManager.CreateAsync(poweruser, UserPassword);
+                if (createPowerUser.Succeeded)
+                {
+                    //here we tie the new user to the "Admin" role 
+                    await UserManager.AddToRoleAsync(poweruser, "Admin");
+
+                }
+            }
+        }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IServiceProvider serviceProvider)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -83,6 +127,8 @@ namespace Ticketshop
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            CreateRoles(serviceProvider).Wait();
         }
     }
 }

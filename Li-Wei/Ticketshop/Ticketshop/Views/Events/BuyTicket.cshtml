@@ -1,0 +1,70 @@
+@model Ticketshop.Models.Event
+
+<h2>Buy ticket</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Eventname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Eventname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateAndTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateAndTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailableTickets)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AvailableTickets)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Theatername)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Theatername)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Theateradress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Theateradress)
+        </dd>
+    </dl>
+    <br />
+    <p>
+        You are currently buying the ticket shown above. Please check the details.THIS TICKET WILL BE SENT BY E-MAIL.
+    </p>
+    <p>
+        Select the ticket amount: 
+        <select>
+            @for (int i = 1; i<=8; i++)
+            {
+                <option value="amount">@i</option>
+            }
+        </select>
+    </p>
+    <p>
+        Click 
+        <a href="/Events/TicketBought/@Html.DisplayFor(model => model.EventID)/">here</a>
+        to continue.
+    </p>
+
+</div>
