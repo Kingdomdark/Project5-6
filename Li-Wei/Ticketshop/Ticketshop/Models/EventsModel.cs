@@ -20,7 +20,8 @@ namespace Ticketshop.Models
         public string Theatername { get; set; }
         [StringLength(50)]
         public string Theateradress { get; set; }
-        //[StringLength(30)]
-        //public string EventType { get; set; }
+        [StringLength(30)]
+        public string EventType { get; set; }
+        public string Description { get; set; }
     }
 }

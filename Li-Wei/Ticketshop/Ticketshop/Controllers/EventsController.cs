@@ -17,7 +17,7 @@ namespace Ticketshop.Controllers
 
         public EventsController(ApplicationDbContext context)
         {
-            _context = context;    
+            _context = context;
         }
 
         // GET: Events
@@ -50,7 +50,7 @@ namespace Ticketshop.Controllers
         }
 
         [Authorize]
-        public async Task<IActionResult> TicketBought(int? id, int? amount)  //See this when ticket is bought
+        public async Task<IActionResult> TicketBought(int? id, int? TicketAmount)  //See this when ticket is bought
         {
             if (id == null)
             {
@@ -66,6 +66,7 @@ namespace Ticketshop.Controllers
             var query = (from events in _context.Events
                          where events.EventID == id
                          select events);
+
             foreach (Event events in query)
             {
                 events.AvailableTickets = events.AvailableTickets - 1;
@@ -112,8 +113,7 @@ namespace Ticketshop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("EventID,Price,Eventname,Genre,DateAndTime,AvailableTickets,Theatername,Theateradress")] Event @event)
+        public async Task<IActionResult> Create([Bind("EventID,Price,Eventname,Genre,DateAndTime,AvailableTickets,Theatername,Theateradress,EventType,Description")] Event @event)
         {
             if (ModelState.IsValid)
             {
@@ -125,7 +125,6 @@ namespace Ticketshop.Controllers
         }
 
         // GET: Events/Edit/5
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -146,8 +145,7 @@ namespace Ticketshop.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("EventID,Price,Eventname,Genre,DateAndTime,AvailableTickets,Theatername,Theateradress")] Event @event)
+        public async Task<IActionResult> Edit(int id, [Bind("EventID,Price,Eventname,Genre,DateAndTime,AvailableTickets,Theatername,Theateradress,EventType,Description")] Event @event)
         {
             if (id != @event.EventID)
             {
@@ -178,7 +176,6 @@ namespace Ticketshop.Controllers
         }
 
         // GET: Events/Delete/5
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -199,7 +196,6 @@ namespace Ticketshop.Controllers
         // POST: Events/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var @event = await _context.Events.SingleOrDefaultAsync(m => m.EventID == id);
@@ -211,24 +207,6 @@ namespace Ticketshop.Controllers
         private bool EventExists(int id)
         {
             return _context.Events.Any(e => e.EventID == id);
-        }
-
-
-
-
-        public IActionResult PersonalEvents()
-        {
-            ViewData["Message"] = "Personal Events";
-
-            return View();
-        }
-
-
-        public IActionResult BusinessEvents()
-        {
-            ViewData["Message"] = "Business Events";
-
-            return View();
         }
     }
 }

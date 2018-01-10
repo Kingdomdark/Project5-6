@@ -6,6 +6,10 @@
     <UserSecretsId>aspnet-Ticketshop-8B5D40D6-EFFC-4CB7-8B54-F3FB563AEBAD</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\Events1Controller.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

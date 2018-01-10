@@ -24,5 +24,8 @@ namespace Ticketshop.Data
         }
 
         public DbSet<Event> Events { get; set; }
+        public DbSet<Wishlist> Wishlists { get; set; }
+
+        public DbSet<Ticketshop.Models.ApplicationUser> ApplicationUser { get; set; }
     }
 }

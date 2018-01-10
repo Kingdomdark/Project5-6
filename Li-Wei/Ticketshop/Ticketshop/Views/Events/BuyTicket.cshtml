@@ -57,14 +57,19 @@
         <select>
             @for (int i = 1; i<=8; i++)
             {
-                <option value="amount">@i</option>
+                <option value="amount" name="TicketBought">@i</option>
             }
+
         </select>
     </p>
     <p>
         Click 
-        <a href="/Events/TicketBought/@Html.DisplayFor(model => model.EventID)/">here</a>
+        <a href="/Events/TicketBought/@Html.DisplayFor(model => model.EventID)">here</a>
         to continue.
     </p>
-
+    @*@using(Html.BeginForm("TicketBought", "Events"))
+    {
+        <input type="text" name=""/>
+        <input type="submit" />
+    }*@
 </div>

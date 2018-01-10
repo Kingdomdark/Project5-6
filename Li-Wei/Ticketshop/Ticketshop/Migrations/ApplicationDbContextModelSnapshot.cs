@@ -182,6 +182,11 @@ namespace Ticketshop.Migrations
 
                     b.Property<DateTime>("DateAndTime");
 
+                    b.Property<string>("Description");
+
+                    b.Property<string>("EventType")
+                        .HasMaxLength(30);
+
                     b.Property<string>("Eventname")
                         .HasMaxLength(50);
 
@@ -195,9 +200,23 @@ namespace Ticketshop.Migrations
                     b.Property<string>("Theatername")
                         .HasMaxLength(35);
 
+                    b.Property<string>("WishlistCustomerEmail");
+
                     b.HasKey("EventID");
 
+                    b.HasIndex("WishlistCustomerEmail");
+
                     b.ToTable("Events");
+                });
+
+            modelBuilder.Entity("Ticketshop.Models.Wishlist", b =>
+                {
+                    b.Property<string>("CustomerEmail")
+                        .ValueGeneratedOnAdd();
+
+                    b.HasKey("CustomerEmail");
+
+                    b.ToTable("Wishlists");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
@@ -235,6 +254,13 @@ namespace Ticketshop.Migrations
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Ticketshop.Models.Event", b =>
+                {
+                    b.HasOne("Ticketshop.Models.Wishlist")
+                        .WithMany("Events")
+                        .HasForeignKey("WishlistCustomerEmail");
                 });
         }
     }
