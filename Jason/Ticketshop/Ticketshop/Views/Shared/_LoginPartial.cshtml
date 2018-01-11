@@ -13,6 +13,11 @@
                     Wishlist
                 </a>
             </li>
+            <li>
+                <a href="/OrderHistories/Index/@UserManager.GetUserName(User)" class="btn btn-primary" role="button">
+                    Order History
+                </a>
+            </li>
             @if (ViewContext.HttpContext.User.IsInRole("Admin"))
             {
                 <li><a asp-area="" asp-controller="Statistics" asp-action="Index">Statistics</a></li>

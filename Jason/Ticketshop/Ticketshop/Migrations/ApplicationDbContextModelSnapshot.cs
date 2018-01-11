@@ -205,6 +205,20 @@ namespace Ticketshop.Migrations
                     b.ToTable("Events");
                 });
 
+            modelBuilder.Entity("Ticketshop.Models.OrderHistory", b =>
+                {
+                    b.Property<int>("PrimaryKey")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CustomerEmail");
+
+                    b.Property<int>("EventID");
+
+                    b.HasKey("PrimaryKey");
+
+                    b.ToTable("OrderHistories");
+                });
+
             modelBuilder.Entity("Ticketshop.Models.Wishlist", b =>
                 {
                     b.Property<int>("PrimaryKey")

@@ -1,4 +1,5 @@
 @model Ticketshop.Models.Event
+@inject UserManager<ApplicationUser> UserManager
 
 <h2>Buy ticket</h2>
 
@@ -64,7 +65,7 @@
     </p>
     <p>
         Click 
-        <a href="/Events/TicketBought/@Html.DisplayFor(model => model.EventID)">here</a>
+        <a href="/Events/TicketBought/@UserManager.GetUserName(User)/@Html.DisplayFor(model => model.EventID)">here</a>
         to continue.
     </p>
     @*@using(Html.BeginForm("TicketBought", "Events"))

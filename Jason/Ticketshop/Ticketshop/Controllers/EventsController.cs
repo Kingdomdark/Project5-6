@@ -55,18 +55,23 @@ namespace Ticketshop.Controllers
 
 
         [Authorize]
-        public async Task<IActionResult> TicketBought(int? id)  //See this when ticket is bought
+        public async Task<IActionResult> TicketBought(string CustEmail, int id)  //See this when ticket is bought
         {
+            OrderHistory order = new OrderHistory()
+            {
+                CustomerEmail = CustEmail,
+                EventID = id
+            };
+
+            _context.OrderHistories.Add(order);
+            _context.SaveChanges();
+
             string UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             string email = (from u in _context.ApplicationUser
                             where u.Id == UserId
                             select u.Email).FirstOrDefault();
 
-            if (id == null)
-            {
-                return NotFound();
-            }
             var @event = await _context.Events
                 .SingleOrDefaultAsync(m => m.EventID == id);
             if (@event == null)
