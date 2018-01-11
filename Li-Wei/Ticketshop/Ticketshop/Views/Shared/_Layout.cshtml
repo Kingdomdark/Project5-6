@@ -41,11 +41,6 @@
                         <ul class="dropdown-menu">
                             <li><a asp-area="" asp-controller="Events" asp-action="PersonalEvents">Leisure Events</a></li>
                             <li><a asp-area="" asp-controller="Events" asp-action="BusinessEvents">Business Evnets</a></li>
-                            @if (ViewContext.HttpContext.User.IsInRole("Admin"))
-                            {
-                                <li><a asp-area="" asp-controller="Itms" asp-action="Index">Beheer</a></li>
-
-                            }
                         </ul>
                     </li>
                 </ul>

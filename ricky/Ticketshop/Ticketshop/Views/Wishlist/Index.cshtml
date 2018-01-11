@@ -35,37 +35,40 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    <img src="~/images/TemplateEvent.png" alt="an image" style="height:7%;">
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Eventname)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Genre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateAndTime)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AvailableTickets)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Theatername)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Theateradress)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EventType)
-                </td>
-                </tr>
-        }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="~/images/TemplateEvent.png" alt="an image" style="height:7%;">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eventname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableTickets)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Theatername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Theateradress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventType)
+            </td>
+        </tr>
+        <td>
+            <a asp-action="Delete" asp-route-id="@item.EventID">Delete</a>
+        </td>
+    }
     </tbody>
 </table>

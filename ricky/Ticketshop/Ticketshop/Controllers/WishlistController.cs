@@ -18,7 +18,7 @@ namespace Ticketshop.Controllers
 
         public WishlistController(ApplicationDbContext context)
         {
-            _context = context;    
+            _context = context;
         }
 
         // GET: Wishlists/Index/Emailname
@@ -28,35 +28,11 @@ namespace Ticketshop.Controllers
             {
                 return NotFound();
             }
-            //return View();
-
 
             List<IndexViewModel> IndexVMlist = new List<IndexViewModel>();
 
 
-
-            //join
-
-            //var WishlistItems = from Wishlist in _context.Wishlists
-            //                    where Wishlist.CustomerEmail == CustEmail
-            //                    join Tickets in _context.Events
-            //                    on Wishlist.EventID
-            //                    equals Tickets.EventID
-            //                    select new
-            //                    {
-            //                        Tickets.EventID,
-            //                        Tickets.Eventname,
-            //                        Tickets.Genre,
-            //                        Tickets.DateAndTime,
-            //                        Tickets.AvailableTickets,
-            //                        Tickets.Theatername,
-            //                        Tickets.Theateradress,
-            //                        Tickets.EventType,
-            //                    };
-
-
-            //was trying some shit out
-            //from 2 tables where 1 table == the other
+            //query to add to wishlist.
             var WishlistItems = from wishlst in _context.Wishlists
                                 where wishlst.CustomerEmail == id
                                 from eve in _context.Events
@@ -102,27 +78,60 @@ namespace Ticketshop.Controllers
         [Authorize]
         public async Task<IActionResult> AddToWishlist(string CustEmail, int id)
         {
+            bool Exists = false;
 
-            Wishlist WishlistItem = new Wishlist
+            var CheckExists = from eve in _context.Wishlists
+                              where eve.CustomerEmail == CustEmail
+                              select eve;
+
+            foreach (Wishlist eve in CheckExists)
             {
-                CustomerEmail = CustEmail,
-                EventID = id
-            };
-            _context.Wishlists.Add(WishlistItem);
-            _context.SaveChanges();
-            //var @event = await _context.Events
-            //    .SingleOrDefaultAsync(m => m.EventID == id);
-            //if (@event == null)
-            //{
-            //    return NotFound();
-            //}
-            var AddedEvent = await _context.Events
-                .SingleOrDefaultAsync(e => e.EventID == id);
-            if (AddedEvent == null)
+                if (eve.EventID == id)
+                {
+                    Exists = true;
+                }
+            }
+            if (Exists == false)
+            {
+                Wishlist WishlistItem = new Wishlist
+                {
+                    CustomerEmail = CustEmail,
+                    EventID = id
+                };
+                _context.Wishlists.Add(WishlistItem);
+                _context.SaveChanges();
+                //var @event = await _context.Events
+                //    .SingleOrDefaultAsync(m => m.EventID == id);
+                //if (@event == null)
+                //{
+                //    return NotFound();
+                //}
+                var AddedEvent = await _context.Events
+                    .SingleOrDefaultAsync(e => e.EventID == id);
+                if (AddedEvent == null)
+                {
+                    return NotFound();
+                }
+                return View(AddedEvent);
+            }
+            return View();
+        }
+        // GET: Wishlist/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
             {
                 return NotFound();
             }
-            return View(AddedEvent);
+
+            var wishlist = await _context.Wishlists
+                .SingleOrDefaultAsync(m => m.EventID == id);
+            if (wishlist == null)
+            {
+                return NotFound();
+            }
+
+            return View(wishlist);
         }
     }
 }

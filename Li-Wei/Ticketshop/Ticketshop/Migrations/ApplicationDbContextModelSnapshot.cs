@@ -200,21 +200,21 @@ namespace Ticketshop.Migrations
                     b.Property<string>("Theatername")
                         .HasMaxLength(35);
 
-                    b.Property<string>("WishlistCustomerEmail");
-
                     b.HasKey("EventID");
-
-                    b.HasIndex("WishlistCustomerEmail");
 
                     b.ToTable("Events");
                 });
 
             modelBuilder.Entity("Ticketshop.Models.Wishlist", b =>
                 {
-                    b.Property<string>("CustomerEmail")
+                    b.Property<int>("PrimaryKey")
                         .ValueGeneratedOnAdd();
 
-                    b.HasKey("CustomerEmail");
+                    b.Property<string>("CustomerEmail");
+
+                    b.Property<int>("EventID");
+
+                    b.HasKey("PrimaryKey");
 
                     b.ToTable("Wishlists");
                 });
@@ -254,13 +254,6 @@ namespace Ticketshop.Migrations
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("Ticketshop.Models.Event", b =>
-                {
-                    b.HasOne("Ticketshop.Models.Wishlist")
-                        .WithMany("Events")
-                        .HasForeignKey("WishlistCustomerEmail");
                 });
         }
     }

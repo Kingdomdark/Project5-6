@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Ticketshop.Data;
 using Ticketshop.Models;
 using Microsoft.AspNetCore.Authorization;
+using MimeKit;
+using MailKit.Net.Smtp;
+using System.Security.Claims;
 
 namespace Ticketshop.Controllers
 {
@@ -46,12 +49,20 @@ namespace Ticketshop.Controllers
             {
                 return NotFound();
             }
+
             return View(@event);
         }
 
+
         [Authorize]
-        public async Task<IActionResult> TicketBought(int? id, int? TicketAmount)  //See this when ticket is bought
+        public async Task<IActionResult> TicketBought(int? id)  //See this when ticket is bought
         {
+            string UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            string email = (from u in _context.ApplicationUser
+                            where u.Id == UserId
+                            select u.Email).FirstOrDefault();
+
             if (id == null)
             {
                 return NotFound();
@@ -79,6 +90,22 @@ namespace Ticketshop.Controllers
             catch (Exception e)
             {
                 Console.WriteLine(e);
+            }
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress("Test Porject", "emuricky1997@gmail.com"));
+            message.To.Add(new MailboxAddress(email, email));
+            message.Subject = "Confirm Purchase";
+            message.Body = new TextPart("plain")
+            {
+                Text = "hello world mail"
+            };
+            using (var client = new SmtpClient())
+            {
+                client.Connect("smtp.gmail.com", 587, false);
+                client.Authenticate("emuricky1997@gmail.com", "rickymisier444");
+                client.Send(message);
+
+                client.Disconnect(true);
             }
             return View(@event);
         }
