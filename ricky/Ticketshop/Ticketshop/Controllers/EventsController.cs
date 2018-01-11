@@ -10,6 +10,7 @@ using Ticketshop.Models;
 using Microsoft.AspNetCore.Authorization;
 using MimeKit;
 using MailKit.Net.Smtp;
+using System.Security.Claims;
 
 namespace Ticketshop.Controllers
 {
@@ -48,12 +49,20 @@ namespace Ticketshop.Controllers
             {
                 return NotFound();
             }
+
             return View(@event);
         }
 
+
         [Authorize]
-        public async Task<IActionResult> TicketBought(int? id, int? TicketAmount)  //See this when ticket is bought
+        public async Task<IActionResult> TicketBought(int? id)  //See this when ticket is bought
         {
+            string UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            string email = (from u in _context.ApplicationUser
+                            where u.Id == UserId
+                            select u.Email).FirstOrDefault();
+
             if (id == null)
             {
                 return NotFound();
@@ -84,7 +93,7 @@ namespace Ticketshop.Controllers
             }
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("Test Porject", "emuricky1997@gmail.com"));
-            message.To.Add(new MailboxAddress("jason", "0929205@hr.nl"));
+            message.To.Add(new MailboxAddress(email, email));
             message.Subject = "Confirm Purchase";
             message.Body = new TextPart("plain")
             {
@@ -118,16 +127,7 @@ namespace Ticketshop.Controllers
 
             return View(@event);
         }
-        public IActionResult BusinessEvents()
-        {
 
-            return View();
-        }
-        public IActionResult PersonalEvents()
-        {
-
-            return View();
-        }
         // GET: Events/Create
         [Authorize(Roles = "Admin")]
         public IActionResult Create()
@@ -235,6 +235,5 @@ namespace Ticketshop.Controllers
         {
             return _context.Events.Any(e => e.EventID == id);
         }
-
     }
 }

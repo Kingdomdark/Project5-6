@@ -126,6 +126,14 @@ namespace Ticketshop
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+                //Trying to make a route that accepts 2 arguments.
+                routes.MapRoute(
+                    "AddToWishlist",
+                    "{controller=Wishlist}/{action=AddToWishlist}/{CustEmail}/{id}");
+                //routes.MapRoute(
+                //    "ViewWishList",
+                //    "{controller=Wishlist}/{action=Index}/{CustEmail}");
             });
 
             CreateRoles(serviceProvider).Wait();

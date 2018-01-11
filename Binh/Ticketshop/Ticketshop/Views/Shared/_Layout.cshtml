@@ -29,26 +29,20 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Ticketshop</a>
-                <div class="Search">
-                    @using (Html.BeginForm("Events", "Home", FormMethod.Get))
-                     {
-                        <div class="input-group custom-search-form">
-                          <input type="text" name="SearchString" class="form-control">
-                          <span class="input-group-btn">
-                            <button class="btn btn-primary" input type="submit">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                          </span>
-                        </div>
-                     }
-                </div>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Events">Events</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Events" asp-action="Index">Events</a></li>
+                    <li class=" dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Host an Event</a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Events" asp-action="PersonalEvents">Leisure Events</a></li>
+                            <li><a asp-area="" asp-controller="Events" asp-action="BusinessEvents">Business Evnets</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>

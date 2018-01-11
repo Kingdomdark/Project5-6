@@ -116,14 +116,6 @@ namespace Ticketshop.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-
-                    string CToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
-                    string CTokenLink = Url.Action("ConfirmEmail", "Account", new
-                    {
-                        userid = user.Id,
-                        Token = CToken
-                    }, protocol: HttpContext.Request.Scheme);
-                    ViewBag.Token = CTokenLink;
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=532713
                     // Send an email with this link
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -132,7 +124,7 @@ namespace Ticketshop.Controllers
                     //    $"Please confirm your account by clicking this link: <a href='{callbackUrl}'>link</a>");
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     _logger.LogInformation(3, "User created a new account with password.");
-                    return View(model);
+                    return RedirectToLocal(returnUrl);
                 }
                 AddErrors(result);
             }
@@ -244,9 +236,9 @@ namespace Ticketshop.Controllers
         // GET: /Account/ConfirmEmail
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> ConfirmEmail(string userId, string Token)
+        public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
-            if (userId == null || Token == null)
+            if (userId == null || code == null)
             {
                 return View("Error");
             }
@@ -255,7 +247,7 @@ namespace Ticketshop.Controllers
             {
                 return View("Error");
             }
-            var result = await _userManager.ConfirmEmailAsync(user, Token);
+            var result = await _userManager.ConfirmEmailAsync(user, code);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
 

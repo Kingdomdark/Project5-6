@@ -4,6 +4,10 @@
     ViewData["Title"] = "events";
 }
 
+
+@*idk if this works*@
+@inject UserManager<ApplicationUser> UserManager
+
 <h2>Events</h2>
 
 @* if user == admin, see this*@
@@ -57,7 +61,7 @@
         @foreach (var item in Model) {
         <tr>
             <td>
-                <img src="~/images/TemplateEvent.png" alt="Kimi no na wa" style="height:7%;">
+                <img src="~/images/TemplateEvent.png" alt="an image" style="height:7%;">
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
@@ -85,10 +89,19 @@
             </td>
             <td>
                 <a href="/Events/BuyTicket/@Html.DisplayFor(modelItem => item.EventID)" class="btn btn-primary" role="button">
-                    Buy Ticket(s)!
+                    Buy Ticket
                 </a>
             </td>
-
+            @*<td>
+                <a href="/Events/BuyTicket/@Html.DisplayFor(modelItem => item.EventID)" class="btn btn-primary" role="button">
+                    Buy Ticket
+                </a>
+            </td>*@
+            <td>
+                <a href="/Wishlist/AddToWishlist/@UserManager.GetUserName(User)/@Html.DisplayFor(modelItem => item.EventID)" class="btn btn-primary" role="button">
+                    Add to Wishlist
+                </a>
+            </td>
             @*If user == admin, see this.*@
                 
             <td>
