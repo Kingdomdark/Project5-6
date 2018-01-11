@@ -106,3 +106,15 @@ C:\Users\liwei\Desktop\Latest version\Ticketshop\Ticketshop\obj\Debug\netcoreapp
 C:\Users\liwei\Desktop\Latest version\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
 C:\Users\liwei\Desktop\Latest version\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
 C:\Users\liwei\Desktop\Latest version\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.deps.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.runtimeconfig.dev.json
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\bin\Debug\netcoreapp1.1\Ticketshop.pdb
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.csproj.CoreCompileInputs.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfoInputs.cache
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.AssemblyInfo.cs
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.dll
+C:\Users\JasonTjauw\Desktop\Ticketshops\Liwei-proof\Ticketshop\Ticketshop\obj\Debug\netcoreapp1.1\Ticketshop.pdb

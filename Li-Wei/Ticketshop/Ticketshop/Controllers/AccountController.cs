@@ -116,6 +116,14 @@ namespace Ticketshop.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+
+                    string CToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+                    string CTokenLink = Url.Action("ConfirmEmail", "Account", new
+                    {
+                        userid = user.Id,
+                        Token = CToken
+                    }, protocol: HttpContext.Request.Scheme);
+                    ViewBag.Token = CTokenLink;
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=532713
                     // Send an email with this link
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -124,7 +132,7 @@ namespace Ticketshop.Controllers
                     //    $"Please confirm your account by clicking this link: <a href='{callbackUrl}'>link</a>");
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     _logger.LogInformation(3, "User created a new account with password.");
-                    return RedirectToLocal(returnUrl);
+                    return View(model);
                 }
                 AddErrors(result);
             }
@@ -132,6 +140,7 @@ namespace Ticketshop.Controllers
             // If we got this far, something failed, redisplay form
             return View(model);
         }
+
 
         //
         // POST: /Account/Logout
@@ -236,9 +245,9 @@ namespace Ticketshop.Controllers
         // GET: /Account/ConfirmEmail
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> ConfirmEmail(string userId, string code)
+        public async Task<IActionResult> ConfirmEmail(string userId, string Token)
         {
-            if (userId == null || code == null)
+            if (userId == null || Token == null)
             {
                 return View("Error");
             }
@@ -247,7 +256,7 @@ namespace Ticketshop.Controllers
             {
                 return View("Error");
             }
-            var result = await _userManager.ConfirmEmailAsync(user, code);
+            var result = await _userManager.ConfirmEmailAsync(user, Token);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
 
