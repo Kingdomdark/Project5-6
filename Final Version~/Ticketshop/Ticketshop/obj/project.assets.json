@@ -11207,11 +11207,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricky\\Desktop\\final alleen ticket page showt geen description\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectUniqueName": "C:\\Users\\ricky\\Desktop\\Final Version~\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "projectName": "Ticketshop",
-      "projectPath": "C:\\Users\\ricky\\Desktop\\final alleen ticket page showt geen description\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
+      "projectPath": "C:\\Users\\ricky\\Desktop\\Final Version~\\Ticketshop\\Ticketshop\\Ticketshop.csproj",
       "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricky\\Desktop\\final alleen ticket page showt geen description\\Ticketshop\\Ticketshop\\obj\\",
+      "outputPath": "C:\\Users\\ricky\\Desktop\\Final Version~\\Ticketshop\\Ticketshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config",

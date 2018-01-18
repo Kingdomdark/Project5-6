@@ -1,6 +1,7 @@
 ﻿@model Ticketshop.Models.Event
 
 <!DOCTYPE html>
+@inject UserManager<ApplicationUser> UserManager
 
 <html>
 <head>
@@ -73,7 +74,11 @@
 </div>
 
 <p>
-    This ticket has been added to your wishlist. Click here to go to your wishlist.
+    This ticket has been added to your wishlist. If this ticket is empty, it was already on your wishlist! Click
+    <a href="/Wishlist/Index/@UserManager.GetUserName(User)">
+        here
+    </a>
+    to go to your wishlist.
 </p>
 
 
