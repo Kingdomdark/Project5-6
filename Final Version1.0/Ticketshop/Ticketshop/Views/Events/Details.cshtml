@@ -1,0 +1,79 @@
+@model Ticketshop.Models.Event
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Event</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            &euro;@Html.DisplayFor(model => model.Price),-
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Eventname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Eventname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateAndTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateAndTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailableTickets)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AvailableTickets)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Theatername)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Theatername)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Theateradress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Theateradress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EventType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EventType)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dd>
+            <a href="/Events/BuyTicket/@Html.DisplayFor(model => model.EventID)" class="btn btn-primary" role="button">
+                Buy Ticket
+            </a>
+        </dd>
+    </dl>
+</div>
+
+@* if user == admin, see this
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.EventID">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>*@
