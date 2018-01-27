@@ -1,7 +1,7 @@
 ﻿<script>
         var PieChartWebshop =
             {
-                labels: ["Aantal producten in webshop", "Aantal users"],
+                labels: ["Aantal movies", "Aantal theatershows","Aantal sportevents"],
                 datasets: [{
                     label: 'Statistieken',
                     backgroundColor: [
@@ -9,7 +9,7 @@
                         "#f7bd83"
                     ],
                     borderWidth: 2,
-                    data: [@ViewBag.Amount_Events ,   @ViewBag.Amount_Users]
+                    data: [@ViewBag.Amount_Events_movies ,   @ViewBag.Amount_Events_theaters, @ViewBag.Amount_Events_sport]
                 }]
         };
 

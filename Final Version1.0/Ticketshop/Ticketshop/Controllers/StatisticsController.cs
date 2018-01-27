@@ -21,6 +21,9 @@ namespace Ticketshop.Controllers
         }
         public ActionResult Index()
         {
+            var Amount_Events_movies = _context.Events.Count(x => (x.EventType == "Movie"));
+            var Amount_Events_theaters = _context.Events.Count(x => (x.EventType == "Theater"));
+            var Amount_Events_sport = _context.Events.Count(x => (x.EventType == "Sport"));
             var Amount_Events = _context.Events.Count();
             var Amount_Users = _context.Users.Count();
             //double total_money_exclusive = _context.OrdHistory.Sum(x => (x.priced_payed * x.qty_bought));
@@ -32,6 +35,9 @@ namespace Ticketshop.Controllers
 
             ViewBag.Amount_Events = Amount_Events;
             ViewBag.Amount_Users = Amount_Users;
+            ViewBag.Amount_Events_movies = Amount_Events_movies;
+            ViewBag.Amount_Events_theaters = Amount_Events_theaters;
+            ViewBag.Amount_Events_sport = Amount_Events_sport;
             //ViewBag.total_money_exclusive = total_money_exclusive;
             //ViewBag.total_money_inclusive = total_money_inclusive;
             return View();
